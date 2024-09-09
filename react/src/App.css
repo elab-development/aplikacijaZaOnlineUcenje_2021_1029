@@ -1,0 +1,195 @@
+/* Globalni stilovi */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('assets/university-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Stil za početnu stranicu */
+#home-page1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: #000000;
+}
+
+.main-title {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.app-description, .app-explanation {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.floating-logo {
+  margin-top: 20px;
+  width: 150px;
+  height: auto;
+}
+
+/* Stil za listu kurseva */
+#courses-page {
+  padding: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+.course-item {
+  background: rgba(255, 255, 255, 0.2);
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+.course-item h3 {
+  margin-bottom: 10px;
+}
+
+/* Stil za dugmad na početnoj stranici */
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px; 
+}
+
+.home-button {
+  background-color: #007BFF; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 200px; 
+  text-align: center;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}
+
+.home-button a {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+}
+
+#home-page {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10px;
+}
+
+#courses-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  min-height: 100vh;
+  color: #000000; 
+  padding-top: 100px;
+}
+
+.course-item {
+  background: rgba(255, 255, 255, 0.2); 
+  color: #000000;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 100%; 
+  max-width: 900px;
+  text-align: center;
+  
+}
+
+.course-item h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.course-item p {
+  font-size: 18px;
+}
+
+#courses-page h2 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none; 
+  padding-left: 0; 
+}
+
+
+
+
+
+/* Stil za stranicu za kreiranje kursa */
+#create-course-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+ 
+  padding-top: 100px;
+  color: #000000;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.course-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px; 
+}
+
+input, textarea, select {
+  padding-top: 40px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.8); 
+  color: #333; 
+}
+
+textarea {
+  height: 100px;
+}
+
+button.blue-button {
+  background-color: #007BFF; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; 
+}
+
+button.blue-button:hover {
+  background-color: #0056b3;
+}
+
